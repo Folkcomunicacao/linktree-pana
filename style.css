@@ -148,7 +148,7 @@ body {
 }
 
 .links-container li.right {
-  animation: slide-in-right .9s ease backwards;
+  animation: slide-in-right 2s ease backwards;
 }
 
 .links-container li.left a {
@@ -156,7 +156,7 @@ body {
 }
 
 .links-container li.left, .header__icon {
-  animation: slide-in-left .9s ease backwards;
+  animation: slide-in-left 2s ease backwards;
 }
 
 .links-container a:link,
