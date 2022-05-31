@@ -15,7 +15,7 @@
 }
 
 html {
-  font-size: 62.5%; /* 10px font size */
+  font-size: 62.5%;
 }
 
 body {
@@ -149,6 +149,7 @@ body {
 
 .links-container li.right {
   animation: slide-in-right 2s ease backwards;
+  animation-delay: 1s;
 }
 
 .links-container li.left a {
@@ -157,6 +158,7 @@ body {
 
 .links-container li.left, .header__icon {
   animation: slide-in-left 2s ease backwards;
+  animation-delay: 1s;
 }
 
 .links-container a:link,
@@ -244,7 +246,6 @@ body {
 
     .user-info-box {
       order: 2;
-      /* border: 1px solid purple; */
       justify-content: flex-start;
       align-items: flex-end;
       width: 20rem;
@@ -258,7 +259,6 @@ body {
       min-width: 40rem;
       max-width: 30.5rem;
       min-height: 400px;
-      /* border: 1px solid blue; */
       margin-top: 0;
     }
 
